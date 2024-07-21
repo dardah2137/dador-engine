@@ -2,3 +2,4 @@
 	path = extern/SDL
 	url = https://github.com/libsdl-org/SDL/
 	branch = main
+	ignore = dirty
