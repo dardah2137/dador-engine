@@ -10,3 +10,8 @@ set(BUILD_SHARED_LIBS ON)
 
 add_subdirectory(extern)
 add_subdirectory(src)
+
+option(demo "Compile demo executable?" ON)
+if(demo)
+    add_subdirectory(demo)
+endif()
